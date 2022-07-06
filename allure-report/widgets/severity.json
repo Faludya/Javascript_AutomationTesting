@@ -1,0 +1,61 @@
+[ {
+  "uid" : "94289ebb280cf3c4",
+  "name" : "When I login with performance_glitch_user and secret_sauce",
+  "time" : {
+    "start" : 1657099907577,
+    "stop" : 1657099912880,
+    "duration" : 5303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9165350075015ba3",
+  "name" : "",
+  "time" : {
+    "start" : 1657099912930,
+    "stop" : 1657099912930,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a58f3da96e6b4cb",
+  "name" : "When I login with problem_user and secret_sauce",
+  "time" : {
+    "start" : 1657099906769,
+    "stop" : 1657099907086,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e61e561361b6f9d",
+  "name" : "Then I should verify users arrived on website",
+  "time" : {
+    "start" : 1657099912880,
+    "stop" : 1657099912930,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "638ba27cabcb4feb",
+  "name" : "Given I am on homepage",
+  "time" : {
+    "start" : 1657099907496,
+    "stop" : 1657099907577,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c084f281b43cfe3",
+  "name" : "When I login with standard_user and secret_sauce",
+  "time" : {
+    "start" : 1657099907152,
+    "stop" : 1657099907468,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

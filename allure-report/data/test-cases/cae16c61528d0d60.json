@@ -1,0 +1,259 @@
+{
+  "uid" : "cae16c61528d0d60",
+  "name" : "When I login with standard_user and secret_sauce",
+  "fullName" : "I want to verify which users can login and what they see: I verify users can login.When I login with standard_user and secret_sauce",
+  "historyId" : "219753a8c3bf05e2ebb596102c7f87f6",
+  "time" : {
+    "start" : 1657099906197,
+    "stop" : 1657099906665,
+    "duration" : 468
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1657099906198,
+        "stop" : 1657099906327,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91e4ed4d0840f395",
+        "name" : "Response",
+        "source" : "91e4ed4d0840f395.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1657099906329,
+        "stop" : 1657099906350,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba2a3cf7af7d1169",
+        "name" : "Request",
+        "source" : "ba2a3cf7af7d1169.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "663743bdf166a25f",
+        "name" : "Response",
+        "source" : "663743bdf166a25f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/360da182-c734-42d6-9eaf-c9be33073f00/clear",
+      "time" : {
+        "start" : 1657099906356,
+        "stop" : 1657099906391,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/360da182-c734-42d6-9eaf-c9be33073f00/value",
+      "time" : {
+        "start" : 1657099906396,
+        "stop" : 1657099906467,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19fb463cbaa4132c",
+        "name" : "Request",
+        "source" : "19fb463cbaa4132c.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1657099906468,
+        "stop" : 1657099906482,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "632417e7ce840a5a",
+        "name" : "Request",
+        "source" : "632417e7ce840a5a.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "dc70e9077ac48bfd",
+        "name" : "Response",
+        "source" : "dc70e9077ac48bfd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0d88cf4e-e6da-417f-9faf-5ce9a79213ea/clear",
+      "time" : {
+        "start" : 1657099906485,
+        "stop" : 1657099906513,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/0d88cf4e-e6da-417f-9faf-5ce9a79213ea/value",
+      "time" : {
+        "start" : 1657099906514,
+        "stop" : 1657099906570,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c03f63a5b985ed6",
+        "name" : "Request",
+        "source" : "3c03f63a5b985ed6.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1657099906571,
+        "stop" : 1657099906585,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b03e95ef57f6007",
+        "name" : "Request",
+        "source" : "6b03e95ef57f6007.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "5ed5a97b6ae591a0",
+        "name" : "Response",
+        "source" : "5ed5a97b6ae591a0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/10a49726-1e93-4daf-aa73-c61f13009185/click",
+      "time" : {
+        "start" : 1657099906587,
+        "stop" : 1657099906665,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testClass",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I login with standard_user and secret_sauce"
+  }, {
+    "name" : "package",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cae16c61528d0d60.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
