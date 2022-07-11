@@ -15,3 +15,18 @@ Feature: I want to verify which users can login and what they see
       |problem_user            | secret_sauce  |
       |standard_user           | secret_sauce  |
       |performance_glitch_user | secret_sauce  |
+
+
+  Scenario: I verify locked user login results in error
+    Given I am on homepage
+    When I login with locked_out_user and secret_sauce
+    Then I should verify error message
+
+  Scenario Outline: I verify locked user login results in error
+    Given I am on homepage
+    When I login with <username> and <password>
+    Then I should verify error message
+
+    Examples:
+      |username                   | password      |
+      |locked_out_user            | secret_sauce  |
