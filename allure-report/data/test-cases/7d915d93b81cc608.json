@@ -1,0 +1,91 @@
+{
+  "uid" : "7d915d93b81cc608",
+  "name" : "Then I should verify users arrived on website",
+  "fullName" : "I want to verify which users can login and what they see: I verify users can login.Then I should verify users arrived on website",
+  "historyId" : "a4433dd1e8bbf0054a116dfea85bed08",
+  "time" : {
+    "start" : 1657099907468,
+    "stop" : 1657099907487,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1657099907468,
+        "stop" : 1657099907486,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e3a02dcd171bcee",
+        "name" : "Response",
+        "source" : "5e3a02dcd171bcee.json",
+        "type" : "application/json",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testClass",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should verify users arrived on website"
+  }, {
+    "name" : "package",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d915d93b81cc608.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "9664dd3014dd86f4",
+  "name" : "Given I am on homepage",
+  "fullName" : "I want to verify which users can login and what they see: I verify users can login.Given I am on homepage",
+  "historyId" : "172b01956c3d92b6db65a197d2c366c2",
+  "time" : {
+    "start" : 1657099906703,
+    "stop" : 1657099906768,
+    "duration" : 65
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1657099906703,
+        "stop" : 1657099906768,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d7ac7085aeafbd1",
+        "name" : "Request",
+        "source" : "3d7ac7085aeafbd1.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testClass",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on homepage"
+  }, {
+    "name" : "package",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9664dd3014dd86f4.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}

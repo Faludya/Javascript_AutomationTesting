@@ -1,0 +1,118 @@
+{
+  "uid" : "9165350075015ba3",
+  "name" : "",
+  "fullName" : "I want to verify which users can login and what they see: I verify users can login.",
+  "historyId" : "636ae339e863f4950403c3248a8bc321",
+  "time" : {
+    "start" : 1657099912930,
+    "stop" : 1657099912930,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testClass",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "I want to verify which users can login and what they see: I verify users can login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9f7dea75dfa47fc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657099907495,
+        "stop" : 1657099907496,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "20f28913820d0d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657099907487,
+        "stop" : 1657099907487,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "61e49000d8b81ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657099907104,
+        "stop" : 1657099907104,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ddb94ef42283eda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657099907095,
+        "stop" : 1657099907095,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c59c889211678e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657099906702,
+        "stop" : 1657099906703,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4ac3d4ec3005cbfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657099906684,
+        "stop" : 1657099906685,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c8ba8a2a622f5f93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657099904885,
+        "stop" : 1657099904887,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9165350075015ba3.json",
+  "parameterValues" : [ "chrome-103.0.5060.114" ]
+}
